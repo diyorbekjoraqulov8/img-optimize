@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "jest"
   },
   "keywords": [
     "image",
@@ -26,6 +27,8 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "jest": "^30.0.4",
     "rollup": "^4.45.0"
   },
   "peerDependencies": {
